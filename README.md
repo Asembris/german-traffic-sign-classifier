@@ -21,7 +21,7 @@ german-traffic-sign-classifier/
 ├── model.h5
 ├── class_mapping.txt
 ├── training_metrics.png
-├── architecture.png       ← optional model diagram
+├── architecture.png       ← model diagram
 ├── notebook.ipynb
 ├── app.py
 └── check_msvc.py         ← VC++ runtime checker
@@ -30,7 +30,7 @@ german-traffic-sign-classifier/
 - **model.h5** – pre‑trained Keras model  
 - **class_mapping.txt** – `class_id: sign_name` for all 43 classes  
 - **training_metrics.png** – accuracy & loss curves  
-- **architecture.png** – _(optional)_ network structure  
+- **architecture.png** – network structure  
 - **notebook.ipynb** – EDA & training  
 - **app.py** – Gradio demo  
 - **check_msvc.py** – verifies required MSVC runtimes
